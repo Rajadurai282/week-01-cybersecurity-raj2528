@@ -1,0 +1,54 @@
+#include <stdio.h>
+
+int main()
+{
+int choice;
+
+while (1)
+{
+printf("\n====================================\n");
+printf(" CYBERSECURITY ASSET INVENTORY\n");
+printf("====================================\n");
+printf("1. Add Asset\n");
+printf("2. Search Asset\n");
+printf("3. Update Asset\n");
+printf("4. Delete Asset\n");
+printf("5. Display All Assets\n");
+printf("6. Exit\n");
+
+printf("\nEnter your choice: ");
+scanf("%d", &choice);
+
+switch (choice)
+{
+case 1:
+printf("Add Asset selected\n");
+break;
+
+case 2:
+printf("Search Asset selected\n");
+break;
+
+case 3:
+printf("Update Asset selected\n");
+break;
+
+case 4:
+printf("Delete Asset selected\n");
+break;
+
+case 5:
+printf("Display All Assets selected\n");
+break;
+
+case 6:
+printf("Thank you!\n");
+return 0;
+
+default:
+printf("Invalid choice!\n");
+}
+}
+
+return 0;
+}
